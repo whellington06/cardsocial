@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+/*caixa principal*/
+.container{
+    width: 100%;/*largura*/
+    height: 100vh;/*altura*/
+    background-image: linear-gradient(#66E627,#a1421d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*caixa do centro*/
+    .card{
+        width: 540px;
+        background-color: rgba(9,243,24,.5);
+        border-radius: 16px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+
+    
+}
