@@ -26,3 +26,13 @@
 
     
 }
+.profile-img{
+    width: 120px;
+    border-radius: 50%;
+    border: #1da126 5px solid;
+
+    /*sombra do box*/
+    box-shadow: rgba(0, 0, 0, 0, 0.35)0px 5px 15px;
+    /* direciona o img no eixo y*/
+    transform: translateY(-65px);
+}
